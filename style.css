@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primary-color: #000000d0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+
+}
+.main {
+    background: var(--primary-color);
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 150px auto;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+
+}
+.searchbar {
+    padding: 12px;
+    border-radius: 10px;
+}
+button {
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.weather-info{
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.city {
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.date {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.temperature {
+    padding: 10px;
+    font-size: 60px;
+    font-weight: 900;
+}
+.description {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.windspeed {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
